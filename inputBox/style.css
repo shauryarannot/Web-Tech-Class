@@ -1,6 +1,30 @@
-p{
+#age-group{
     height: 100%;
     width: 100%;
     margin-top: 20%;
-    background-color: black;
+}
+
+.block {
+    margin: 50px auto;
+    width: 300px;
+    text-align: center;
+}
+
+input{
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #45a049;
 }
