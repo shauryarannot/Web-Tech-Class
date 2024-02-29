@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.navbar{
+    margin-top: 20px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+logo i{
+    width: 30px;
+    padding-right: 20px;
+}
+
+.logo{
+
+    display: flex;
+    /* align-items: center;
+    justify-content: space-around; */
+    margin-left: 20px;
+    width: 80%;
+}
+
+.details{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.details p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 0.8rem;
+    margin-right: 15px;
+}
+
+.logo h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4rem;
+}
+
+.name{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.name p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 8rem;
+}
+
+.talent{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.education{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+table{
+    width: 70%;
+}
+
+th{
+    height: 70px;
+}
+
+td{
+    height: 40px;
+    text-align: center;
+}
+
+ul{
+    padding-left: 40px;
+    font-size: 1rem;
+}
+
+h2{
+    padding: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.skill{
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+}
+
+.name p{
+    justify-content: center;
+}
+
+table, th,td{
+    border: 1px solid white;
+}

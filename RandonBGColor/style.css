@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    height: 20%;
+}
+
+.heading h1{
+    font-size: 4rem;
+    padding-top: 20px;
+}
+
+.button-div{
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.color_changer{
+    padding-left: 10px;
+    padding-right: 30px;
+    font-size: 50px;
+}
